@@ -1,0 +1,569 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Standard Room Sea View - Palazzo Greco Hotel</title>
+<meta name="keywords" content="">
+<meta name="description" content="Beautifully furnished one-bedroom room featuring a king size bed or two singlebed, a bathroom with power shower.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<!-- Theme color -->
+<meta name="theme-color" content="#272727" />
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/prettyPhoto.css">
+<link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.4.custom.min.css">
+<link rel="stylesheet" href="rs-plugin/css/settings.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/colors/mycolor.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/custom.css?1300">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,700">
+<link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css"> 
+
+<!-- Javascripts --> 
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.js"></script>  
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script> 
+<script type="text/javascript" src="js/jquery.jigowatt.js?1400"></script> 
+<script type="text/javascript" src="js/jquery.sticky.js"></script> 
+<script type="text/javascript" src="js/waypoints.min.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script> 
+<script type="text/javascript" src="js/jquery.gmap.min.js"></script> 
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script> 
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+
+
+
+<script type="text/javascript" src="js/custom.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58897644-1', 'auto');
+  ga('send', 'pageview');
+
+</script><!-- Top header -->
+<div id="top-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="th-text pull-left">
+          <div class="th-item"> <a href="#"><i class="fa fa-phone"></i> +30 28320 91187</a> </div>
+          <div class="th-item"> <a href="#"><i class="fa fa-envelope"></i> info@palazzogreco.com </a></div>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="th-text pull-right">
+          <div class="th-item">
+            <div class="btn-group">
+               <button class="btn btn-default btn-xs dropdown-toggle js-activated" type="button" data-toggle="dropdown">
+            <img src="images/uk.png" height="20px;" class="lang-img" /> English              
+             <span class="caret"></span> </button> 
+              
+              <ul class="dropdown-menu">
+			    <li> <a href="αρχικη.html"><img src="images/el.png" height="20px;" class="lang-img" /> Ελληνικά</a> </li>
+                <li> <a href="home.html"><img src="images/uk.png" height="20px;" class="lang-img" /> English</a> </li>
+				<li> <a href="home-de.html"><img src="images/de.png" height="20px;" class="lang-img" /> Deutsch</a> </li>
+                <li> <a href="home-fr.html"><img src="images/fr.png" height="20px;" class="lang-img" /> Français</a> </li>
+				<!-- </a><li> <a href="#">DEUTSCH</a> </li>
+                <li> <a href="#">FRANÇAIS</a> </li>-->
+              </ul>
+            </div>
+          </div>
+          <div class="th-item">
+            <div class="social-icons"> <a href="https://www.facebook.com/palazzogreco"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/palazzogreco"><i class="fa fa-twitter"></i></a> <a href="https://www.youtube.com/user/PalazzoGrecohotel"><i class="fa fa-youtube-play"></i></a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header>
+  <!-- Navigation -->
+  <div class="navbar yamm navbar-default" id="sticky">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a href="home.html" class="navbar-brand">         
+        <!-- Logo -->
+        <div id="logo"> <img id="default-logo" src="images/logo1.png" alt="Palazzo Greco" style="height:60px;"> <img id="retina-logo" src="images/logo1.png" alt="Palazzo Greco hotel" style="height:44px;"> </div>
+        </a> </div>
+      <div id="navbar-collapse-grid" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown"> <a href="home.html">Home</a>
+          </li>
+		  <li class="dropdown"> <a href="accomodation.html" data-toggle="dropdown" class="dropdown-toggle js-activated">Accommodation<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="accomodation.html">All rooms</a></li>
+              <li><a href="standard-sea-view-room.html">Standard Room Sea View</a></li>
+              <li><a href="standard-land-view-room.html">Standard Room Land View</a></li>
+              <li><a href="junior-suite-with-sea-view.html">Junior Suite Sea View</a></li>
+              <li><a href="two-bedroom-suite-with-sea-view.html">Two Bedrooms Suite Sea View</a></li>
+              <li><a href="http://palazzogrecovillas.com">Exclusive Villas</a></li>
+            </ul>
+          </li>
+          
+        <li> <a href="facilities-services.html">Facilities</a></li>
+        
+        <li> <a href="covid-info.html">Covid Info</a></li>
+        
+		  <li class="dropdown"> <a href="#" data-toggle="dropdown" class="dropdown-toggle js-activated">Location<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="map-directions.html">Map &amp; Directions</a></li>
+              <li><a href="agia-galini.html">Agia Galini Info</a></li>
+              <li><a href="history.html">History</a></li>
+              <li><a href="places-to-visit.html">Places to Visit</a></li>  
+            </ul>
+          </li>
+          <li> <a href="gallery.html">Gallery</a></li>
+          <li> <a href="contact-us.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Parallax Effect -->
+<script type="text/javascript">$(document).ready(function(){$('#parallax-pagetitle').parallax("50%", -0.55);});</script>
+
+<section class="parallax-effect">
+  <div id="parallax-pagetitle" style="background-image: url(./images/rooms/standard/standard_one_sea.jpg);">
+    <div class="color-overlay"> 
+      <!-- Page title -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <ol class="breadcrumb">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="accomodation.html">Accommodation</a></li>
+              <li class="active">Standard Room Sea View</li>
+            </ol>
+            <h1>Standard Room Sea View</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container mt50">
+  <div class="row"> 
+    <!-- Slider -->
+    <section class="standard-slider room-slider">
+      <div class="col-sm-12 col-md-8">
+        <div id="owl-standard" class="owl-carousel">
+          <div class="item"> <a href="images/gallery/rooms-2017/sea-view/standard-sea-view-1.jpg" data-rel="prettyPhoto[gallery1]"><img src="images/gallery/rooms-2017/thumbs/sea-view/standard-sea-view-1.jpg" alt="Palazzo Greco - Standard Room Sea View" class="img-responsive"></a> </div>
+          <div class="item"> <a href="images/gallery/rooms-2017/sea-view/standard-sea-view-2.jpg" data-rel="prettyPhoto[gallery1]"><img src="images/gallery/rooms-2017/thumbs/sea-view/standard-sea-view-2.jpg" alt="Palazzo Greco - Standard Room Sea View" class="img-responsive"></a> </div>
+          <div class="item"> <a href="images/gallery/rooms-2017/sea-view/standard-sea-view-3.jpg" data-rel="prettyPhoto[gallery1]"><img src="images/gallery/rooms-2017/thumbs/sea-view/standard-sea-view-3.jpg" alt="Palazzo Greco - Standard Room Sea View" class="img-responsive"></a> </div>
+          <div class="item"> <a href="images/gallery/rooms-2017/sea-view/standard-sea-view-4.jpg" data-rel="prettyPhoto[gallery1]"><img src="images/gallery/rooms-2017/thumbs/sea-view/standard-sea-view-4.jpg" alt="Palazzo Greco - Standard Room Sea View" class="img-responsive"></a> </div>
+          <div class="item"> <a href="images/gallery/rooms-2017/sea-view/standard-sea-view-5.jpg" data-rel="prettyPhoto[gallery1]"><img src="images/gallery/rooms-2017/thumbs/sea-view/standard-sea-view-5.jpg" alt="Palazzo Greco - Standard Room Sea View" class="img-responsive"></a> </div>
+          <div class="item"> <a href="images/gallery/rooms-2017/sea-view/standard-sea-view-6.jpg" data-rel="prettyPhoto[gallery1]"><img src="images/gallery/rooms-2017/thumbs/sea-view/standard-sea-view-6.jpg" alt="Palazzo Greco - Standard Room Sea View" class="img-responsive"></a> </div>
+          <div class="item"> <a href="images/gallery/rooms-2017/sea-view/standard-sea-view-7.jpg" data-rel="prettyPhoto[gallery1]"><img src="images/gallery/rooms-2017/thumbs/sea-view/standard-sea-view-7.jpg" alt="Palazzo Greco - Standard Room Sea View" class="img-responsive"></a> </div>
+          <div class="item"> <a href="images/gallery/rooms-2017/sea-view/standard-sea-view-8.jpg" data-rel="prettyPhoto[gallery1]"><img src="images/gallery/rooms-2017/thumbs/sea-view/standard-sea-view-8.jpg" alt="Palazzo Greco - Standard Room Sea View" class="img-responsive"></a> </div>
+          </div>
+      </div>
+    </section>
+    
+    <!-- Reservation form -->
+       <section id="reservation-form" class="mt50 clearfix">
+      <div class="col-sm-12 col-md-4">
+        <form class="reservation-vertical clearfix" role="form" method="post" action="https://palazzogrecoboutiquehotel.reserve-online.net" name="reservationform" id="reservationform">
+        <div id="message"></div><!-- Error message display -->
+          <h2 class="lined-heading"><span>Reservation</span></h2>
+          <div class="form-group">
+            <label for="checkin">Check-in</label>
+            <div class="popover-icon" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="24-hr Check-In"> <i class="fa fa-info-circle fa-lg"> </i> </div>
+            <i class="fa fa-calendar infield"></i>
+            <input name="checkin" type="text" id="checkin" value="" class="form-control" placeholder="Check-in"/>
+          </div>
+          <div class="form-group">
+            <label for="checkout">Check-out</label>
+            <div class="popover-icon" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Check-out is from 12:00"> <i class="fa fa-info-circle fa-lg"> </i> </div>
+            <i class="fa fa-calendar infield"></i>
+            <input name="checkout" type="text" id="checkout" value="" class="form-control" placeholder="Check-out"/>
+          </div>
+          <div class="form-group">
+            <div class="guests-select">
+              <label>Guests</label>
+              <i class="fa fa-user infield"></i>
+              <div class="total form-control" id="test">2</div>
+              <div class="guests">
+                <div class="form-group adults">
+                  <label for="adults">Adults</label>
+                  <div class="popover-icon" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="+18 years"> <i class="fa fa-info-circle fa-lg"> </i> </div>
+                  <select name="adults" id="adults" class="form-control">
+                        <option value="1">1</option>
+                        <option value="2" selected >2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                  </select>
+                </div>
+                <div class="form-group children">
+                  <label for="children">Children</label>
+                  <div class="popover-icon" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="(6-12 y.old)"> <i class="fa fa-info-circle fa-lg"> </i> </div>
+                  <select name="children" id="children" class="form-control">
+                        <option value="0">0</option>
+                        <option value="1">1 (6-12 y.old)</option>
+                        <option value="2">2 (6-12 y.old)</option>
+                        <option value="3">3 (6-12 y.old)</option>
+                        <option value="4">4 (6-12 y.old)</option>
+                        <option value="5">5 (6-12 y.old)</option>
+                        <option value="6">6 (6-12 y.old)</option>
+                        <option value="7">7 (6-12 y.old)</option>
+                  </select>
+                </div>
+                <button type="button" class="btn btn-default button-save btn-block">Save</button>
+              </div>
+            </div>
+          </div>
+           <input type="submit" class="btn btn-primary btn-block submit-form" value="Availability"  />
+          <input type="hidden" name="lang" id="lang" value="en" />
+          <br /><br />
+          <h5>Having trouble with the form above? Click the following link.</h5>
+          
+      
+      
+        </form>
+              
+      </div>
+      
+      
+
+    </section>
+    
+    <!-- Room Content -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 mt50">
+            <h2 class="lined-heading"><span>Room details</span></h2>
+            <table class="table table-striped mt30 table-amenities">
+              <tbody>
+                <tr>
+                      <td><i class="fa fa-check-circle"></i> Air-conditioning</td>
+                      <td><i class="fa fa-check-circle"></i> Bath amenities</td>
+                      <td><i class="fa fa-check-circle"></i> Satellite LCD TV's</td>
+                </tr>
+                <tr>
+                      <td><i class="fa fa-check-circle"></i> Balcony</td>
+                      <td><i class="fa fa-check-circle"></i> Free Wi-Fi</td>
+                      <td><i class="fa fa-check-circle"></i> Sea view</td>
+                </tr>
+                <tr>
+                      
+                      <td><i class="fa fa-check-circle"></i> Telephone</td>
+                      <td><i class="fa fa-check-circle"></i> Hair dryer</td>
+                      <td><i class="fa fa-check-circle"></i> Fridge</td> 
+                </tr>
+                <tr>
+                      <td><i class="fa fa-check-circle"></i> 17 sq.m </td>
+                      <td><i class="fa fa-check-circle"></i> Safety Box </td>    
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <div class="col-sm-5 mt50">
+            <h2 class="lined-heading"><span>Overview</span></h2>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" style="font-size: 12pt;">
+              <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
+              <li><a href="#services" data-toggle="tab">Services</a></li>
+              <li><a href="#highlights" data-toggle="tab">Highlights</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content room-tab" style="font-size: 11pt;">
+              <div class="tab-pane fade in active" id="overview">
+                <p>
+<strong>Max Guests:	3	    Max Adults:	2</strong><br />
+Beautifully furnished one-bedroom room featuring a double ortwin beds, a bathroom, 
+and a private balcony where you can relax and enjoy the wonderful view of the bay. </p>
+              </div>
+              <div class="tab-pane fade" id="services"><strong>
+            <ul class='list-unstyled col-md-6' style='line-height:200%;'>
+                      <li><i class='fa fa-check-circle text-green'></i> 24-hr reception </li>
+                      <li><i class='fa fa-check-circle text-green'></i> Iron and board(upon request)</li>
+                      <li><i class='fa fa-check-circle text-green'></i> Free Parking opposite the hotel</li>
+                      <li><i class='fa fa-check-circle text-green'></i> Free Safety boxes in the room</li>
+                      <li><i class='fa fa-check-circle text-green'></i> Transfer from / to the hotel by taxi (upon request, at extra cost)</li>
+                      <li><i class='fa fa-check-circle text-green'></i> Satellite TV </li>
+                      <li><i class='fa fa-check-circle text-green'></i> Sunbeds & parasols (available in the pool area and free of charge for hotel guests)</li>
+                      
+
+            </ul>
+            <ul class='list-unstyled col-md-6' style='line-height:200%;'>
+                      <li><i class='fa fa-check-circle text-green'></i> Telephone </li>
+                      <li><i class='fa fa-check-circle text-green'></i> Sunbeds & parasols at the Beach (available at extra cost)</li>
+                      <li><i class='fa fa-check-circle text-green'></i> Free wi-fi internet in each room</li>
+                      <li><i class='fa fa-check-circle text-green'></i> Daily maid service</li>
+                      <li><i class='fa fa-check-circle text-green'></i> Fresh towels and linen change three times per week</li>
+                      <li><i class='fa fa-check-circle text-green'></i> Baby cots(upon request)</li> 
+                      <li><i class='fa fa-check-circle text-green'></i> We accept credit cards: MasterCard & Visa </li> 
+                      
+            </ul></strong>
+    </div>
+              <div class="tab-pane fade" id="highlights">
+<ul class='list-unstyled highlight' style='line-height:180%;'>
+<li><i class='fa fa-caret-right'></i> Ideal for couples or a family of three(child up to 12 years old) </li>
+<li><i class='fa fa-caret-right'></i> Magnificent sea view from your balcony.</li>
+<li><i class='fa fa-caret-right'></i> Balance of comfort, luxury and style.</li>
+<li><i class='fa fa-caret-right'></i> Rooms are decorated in 3 different colors (light green, light blue, light red) for you to choose.</li>
+</ul>  
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- Other Rooms -->
+<section class="rooms mt50">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="lined-heading"><span>More rooms</span></h2>
+      </div>
+      <!-- Room -->
+             <div class="col-sm-4 standard landview">
+        <div class="room-thumb"> <img src="images/gallery/rooms-2017/thumbs/land-view/land-view-1.jpg" alt="Standard Room Land View" class="img-responsive" />
+          <div class="mask">
+            <div class="main">
+              <h5>Standard Room Land View</h5>
+            </div>
+            <div class="content">
+              <p><span>Ideal for couples or families of three</span>
+<strong>Max Guests:	3	    Max Adults:	2</strong><br />
+This well-appointed one-bedroom room features a double bed or twin beds, a bathroom, and a private balcony.
+</p>
+              <div class="row">
+                <div class="col-xs-6">
+                  <ul class="list-unstyled">
+                    <li><i class="fa fa-check-circle"></i> Air-conditioning</li>                    
+                    <li><i class="fa fa-check-circle"></i> Satellite LCD TV's</li>
+                    <li><i class="fa fa-check-circle"></i> Balcony</li>
+                    <li><i class="fa fa-check-circle"></i> Hair dryer</li>
+                  </ul>
+                </div>
+                <div class="col-xs-6">
+                  <ul class="list-unstyled">
+                  <li><i class="fa fa-check-circle"></i> Bathroom</li>
+                  <li><i class="fa fa-check-circle"></i> Free Wi-Fi</li>
+                  <li><i class="fa fa-check-circle"></i> Telephone</li>                  
+                  <li><i class="fa fa-check-circle"></i> Fridge</li>
+                  </ul>
+                </div>
+              </div>
+              <a href="standard-land-view-room.html" class="btn btn-primary btn-block">More</a>
+            </div>
+          </div>
+        </div>
+      </div>      <!-- Room -->
+            <div class="col-sm-4 suite seaview">
+        <div class="room-thumb"> <img src="images/gallery/rooms-2017/thumbs/junior-suite/junior-suite-01.jpg" alt="Junior Suite" class="img-responsive" />
+          <div class="mask">
+            <div class="main">
+              <h5>Junior Suite Sea View</h5>
+            </div>
+            <div class="content">
+              <p><span>Ideal for couples, families of four or groups</span> 
+<strong>Max Guests:	4	    Max Adults:	4</strong><br />
+Our one-bedroom suites are great option for families and couples alike that require comfortable spaces.
+</p>
+              <div class="row">
+                <div class="col-xs-6">
+                  <ul class="list-unstyled">
+                    <li><i class="fa fa-check-circle"></i> Air-conditioning</li>                    
+                    <li><i class="fa fa-check-circle"></i> Satellite LCD TV's</li>
+                    <li><i class="fa fa-check-circle"></i> Balcony</li>
+                    <li><i class="fa fa-check-circle"></i> Free Wi-Fi</li>
+                    <li><i class="fa fa-check-circle"></i> Fridge</li>                 
+                 </ul>
+                </div>
+                <div class="col-xs-6">
+                  <ul class="list-unstyled">
+                  <li><i class="fa fa-check-circle"></i> Bathroom</li>
+                  <li><i class="fa fa-check-circle"></i> Pool & Sea view</li>
+                  <li><i class="fa fa-check-circle"></i> Telephone</li>
+                    <li><i class="fa fa-check-circle"></i> Hair dryer</li>
+                                       
+                  </ul>
+                </div>
+              </div>
+              <a href="junior-suite-with-sea-view.html" class="btn btn-primary btn-block">More</a>
+            </div>
+          </div>
+        </div>
+      </div>      <!-- Room -->
+            <div class="col-sm-4 suite seaview">
+        <div class="room-thumb"> <img src="images/gallery/rooms-2017/thumbs/two-bedroom/two-bedroom-3.jpg" alt="Two Bedrooms Suite Sea View" class="img-responsive" />
+          <div class="mask">
+            <div class="main">
+              <h5>Two Bedrooms Suite Sea View</h5>
+            </div>
+            <div class="content">
+              <p><span>Ideal for couples, large families or groups</span>
+<strong>Max Guests:	7	    Max Adults:	7</strong><br />
+This sea-view suite is ideal for those of you looking for ample spaces and extra comfort - all the conveniences of a home away from home.
+</p>
+              <div class="row">
+                <div class="col-xs-6">
+                  <ul class="list-unstyled">
+                    <li><i class="fa fa-check-circle"></i> Air-conditioning</li>
+                    <li><i class="fa fa-check-circle"></i> Jacuzzi</li>
+                    <li><i class="fa fa-check-circle"></i> Satellite LCD TV's</li>
+                    <li><i class="fa fa-check-circle"></i> Balcony</li>
+                    <li><i class="fa fa-check-circle"></i> Free Wi-Fi</li>
+                    <li><i class="fa fa-check-circle"></i> Fridge</li>
+                    
+
+                  </ul>
+                </div>
+                <div class="col-xs-6">
+                  <ul class="list-unstyled">
+                  <li><i class="fa fa-check-circle"></i> Bathroom</li>
+                  <li><i class="fa fa-check-circle"></i> Pool & Sea view</li>
+                  <li><i class="fa fa-check-circle"></i> Telephone</li>
+                    <li><i class="fa fa-check-circle"></i> Hair dryer</li>
+                    <li><i class="fa fa-check-circle"></i> Kitchen</li>
+                  </ul>
+                </div>
+              </div>
+              <a href="two-bedroom-suite-with-sea-view.html" class="btn btn-primary btn-block">More</a>
+            </div>
+          </div>
+        </div>
+      </div>    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3">
+        <h4>Palazzo Greco History</h4>
+        
+<p>Founded in 1989 by Christoforos Christoforakis, El Greco was one of the distinguished hotels in Agia Galini dedicated 
+to ensure an unforgettable stay in Crete for guests from all over the world.</p> 
+<p>After an extensive renovation of the hotel, we have created a classic palazzo that we named Palazzo Greco, 
+inspired by the famous painter. Still a family-run hotel, managed by Michalis, Stefania and Stelios Christoforakis, 
+Palazzo Greco now features modern facilities, versatile services and chic aesthetics making it the perfect place to unwind in South Crete.</p>
+      </div>
+      <div class="col-md-6 col-sm-6">
+      
+        <p>
+        
+       <strong> Dear guests, <br /> We would like to inform you that from 1/1/2018 a new goverment tax is imposed to all hotels in Greece.For Palazzo Greco boutique hotel the rate is 3€ per room per night,due to the fact that it is a 4 star hotel.This amount is payable by guests at hotel's reception.</strong>
+        
+        </p>
+
+                <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+        	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+        <form action="//palazzogreco.us4.list-manage.com/subscribe/post?u=3e0e5166c019d173090816281&amp;id=c10b270c5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+        	<h2>RECEIVE OUR NEWSLETTER</h2>
+             <p>Subscribe to our newsletter to keep in touch and get our summer offers!</p>            
+        <div class="mc-field-group">
+        	<label for="mce-EMAIL">Email Address </label>
+        	<input type="email" value="" name="EMAIL" class="required email" placeholder="Please enter your E-mail address" id="mce-EMAIL">
+        </div>
+        	<div id="mce-responses" class="clear">
+        		<div class="response" id="mce-error-response" style="display:none"></div>
+        		<div class="response" id="mce-success-response" style="display:none"></div>
+        	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_3e0e5166c019d173090816281_c10b270c5e" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+        
+        
+        
+        
+        
+        
+        <!--
+        <form role="form" id="subscribe-form">
+          <div class="form-group">
+          <input type="hidden" name="ajax" value="true" />
+          <input name="email" type="text" id="sub-email" value="" class="form-control" placeholder="Please enter your E-mail address" />
+          </div>
+          <button type="submit" class="btn btn-lg btn-black btn-block">Subscribe</button>
+        </form>
+        -->
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <h4>OUR ADDRESS</h4>
+        <address>
+        <strong>Palazzo Greco Hotel</strong><br>
+        Agia Galini, Crete<br>
+        74056, Greece<br>
+        <abbr title="Phone">P:</abbr> <a href="#">+30 28320 91187</a><br>
+        <abbr title="Email">E:</abbr> <a href="#">info@palazzogreco.com</a><br>
+        <abbr title="Website">W:</abbr> <a href="#">www.palazzogreco.com</a><br>
+        </address>
+        <br />
+        <img src="images/2e-bannerespa180X150.png"/>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6"> &copy; 2014 Palazzo Greco All Rights Reserved </div>
+        <div class="col-xs-6 text-right">
+          <ul>
+            <li><a href="contact-us.html">Contact</a></li>
+             <li><a href="isologismos.php">Ισολογισμός 2014</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--Start Cookie Script--> <script type="text/javascript" charset="UTF-8" src="http://chs03.cookie-script.com/s/d66703d423edc999ac4cd321386460f8.js"></script> <!--End Cookie Script-->
+<!-- Go-top Button -->
+<div id="go-top"><i class="fa fa-angle-up fa-2x"></i></div>
+
+</body>
+</html>

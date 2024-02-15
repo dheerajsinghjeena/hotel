@@ -1,0 +1,12 @@
+{
+    "liveServer.settings.port": 5501,
+    "launch": {
+        
+        "configurations": [],
+        "compounds": []
+    },
+    "workbench.settings.useSplitJSON": true,
+    "json.schemas": [
+
+    ]
+}

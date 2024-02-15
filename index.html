@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The-Horizon</title>
+    <link rel="icon" type="image/x-icon" href=".//images/h-icon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> <!--bootstrap css-->
+    <link rel="stylesheet" href="css/index.css"> <!--file css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!--font awesome-->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet"> <!--font style for description-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> <!--font style for services part-->
+</head>
+<body>
+    <header class="container-fluid justify-content-center">
+        <!-- design of navigation bar -->
+        <div class="row">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-xxl navi py-1 ">
+              <a class="navbar-brand col-2" href="index.html">Horizon</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggle">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse nav-option justify-content-center" id="navbar-toggle">
+                <ul class="navbar-nav">
+                  <!-- home -->
+                  <li class="nav-item">
+                    <a class="nav-link activey" href="index.html">Home</a>
+                  </li>
+                  <!-- about us -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                  </li>
+                  <!-- rooms -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="room.html">Rooms</a>
+                  </li>
+                  <!-- pages -->
+                  <li class="nav-item dropdown" data-bs-theme="dark">
+                    <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" >
+                      Pages
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="room.html">Room Details</a></li>
+                      <li><a class="dropdown-item" href="blog.html">Blog Details</a></li>
+                    </ul>
+                  </li>
+
+                  <!-- contact -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+
+                  <!-- Login and sing up -->
+                  <li class="nav-item dropdown" data-bs-theme="dark">
+                    <button class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Login
+                    </button> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        </div>
+        
+
+        <!-- description text for website -->
+        <div class="container description">
+          <div class="row">
+          <div class="col-lg-6"> <!--style="border: 1px solid black;"-->
+            <h1>Horizon A Luxury Hotel</h1>
+            <p>Here are the best hotel booking sites, including recommendations for international travel and for finding low-priced hotel rooms.</p>
+            <p style="text-transform: capitalize; letter-spacing: 4px;"><a href="#" style="text-decoration: none; color: white;"><span style=" border-bottom: 3px solid rgba(0, 17, 255, 0.61);">Discover Now </span></a></p>
+          </div>
+
+          <div class="col-lg-6"> <!--style="border: 1px solid black;"-->
+            <!-- check in check out form -->
+            <form action="#" class="media bg-body-secondary">
+              <h2 style="text-transform: capitalize; font-family:Georgia, 'Times New Roman', Times, serif;">Book your hotel</h2>
+
+              <div> 
+                <label for="check-in">Check-In</label>
+                <input type="date" id="check-in">  
+              </div>
+
+              <div>
+                <label for="check-out">Check-Out</label>
+                <input type="date" id="check-out">  
+              </div>
+
+              <div>
+                <label for="guests">Guests:</label>
+                <select name="guests" id="guests" style="width: 100%; height: 50px;">
+                  <option value="2 adults">2 ADULTS</option>
+                  <option value="3 adults">3 ADULTS</option>
+                  <option value="5 adults">5 ADULTS</option>
+                </select>
+              </div>
+              
+              <div>
+                <label for="room">Rooms:</label>
+                <select name="rooms" id="rooms" style="width: 100%; height: 50px;">
+                  <option value="1 rooms">1 ROOM</option>
+                  <option value="2 rooms">2 ROOM</option>
+                  <option value="2 rooms">Family Set</option>
+                </select>
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn-primary">Check Availability</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        </div>
+    </header>
+    
+    <!-- body of webpage -->
+    <section class="small-about-us">
+      <div class="container aboutus-detail">
+        <div class="row">
+          <div class="col-lg-6">
+            <h6>about us</h6>
+              <h2>Intercontinental LA Westlake Hotel</h2>
+              <p>Sona.com is a leading online accommodation site. We&apos;re passionate about travel. Every day, we inspire and reach millions of travelers across 90 local websites in 41 languages.</p>
+
+              <p>
+                So when it comes to booking the perfect hotel, vacation rental, resort, apartment, guest house, or tree house, we&apos;ve got you covered.
+              </p>
+
+              <a href="about-us.html"><span style="border-bottom: 3px solid blue;">READ MORE</span></a>
+          </div>
+
+          <div class="col-lg-6 aboutus-images">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="/images/about_us-detail 1.jpg">
+              </div>
+
+              <div class="col-sm-6">
+                <img src="/images/about_us-detail 2.avif">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section -->
+    <section class="services">
+      <div class="container">
+        <div class="row heading">
+          <div class="col-lg-12">
+            <p><span style="border-bottom: 3px solid blue;">What we do</span></p>
+            <h2>discover our services</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div class="service_detail">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Travel Plan</h4>
+              <p>Discover unparalleled comfort and luxury at <strong style="color: rgba(0, 0, 0, 0.678);">[The-Horizon]</strong>. Immerse yourself in a seamless travel experience with our exquisite accommodations, exceptional amenities, and personalized service. Book your stay now for a perfect blend of relaxation and sophistication.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service_detail">
+              <i class="fa-solid fa-dumbbell"></i>
+              <h4>Gym Service</h4>
+              <p>Elevate your stay with our exclusive on-site gym service. Our state-of-the-art fitness facility is equipped with modern amenities, ensuring a rewarding workout experience for guests. Stay active and energized during your visit with our convenient and well-appointed gym, available for all hotel guests.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service_detail">
+              <i class="fa-solid fa-champagne-glasses"></i>
+              <h4>Bar & Drinks</h4>
+              <p>Indulge in our exquisite bar and drink service. Elevate your experience with selection of premium beverages, handcrafted cocktails, and a cozy ambiance. Our service is dedicated to creating memorable moments, offering a diverse menu that caters to every palate. We offer you the best experience to live on. 
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service_detail">
+              <i class="fa-solid fa-tent"></i>
+              <h4>Explore Nature</h4>
+              <p>Embark on an unforgettable outdoor adventure with our exclusive camping services. Curated camping experience offers a perfect blend of comfort and wilderness. Immerse yourself in the tranquility of the great outdoors while enjoying the convenience of our well-equipped camping facilities.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service_detail">
+              <i class="fa-solid fa-person-swimming"></i>
+              <h4>Swimming</h4>
+              <p>Indulge in our luxurious swimming services. Offering a refreshing escape with crystal-clear waters and attentive service. Whether you seek a relaxing swim or a leisurely sunbathing experience, our pool area provides the perfect retreat for guests to unwind and enjoy a tranquil aquatic ambiance</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service_detail">
+              <i class="fa-solid fa-utensils"></i>
+              <h4>Catering Service</h4>
+              <p>Indulge in a delightful dining experience at our hotel. Join our journey where exquisite flavors, fresh ingredients, and exceptional service. Whether it's a casual breakfast, a business lunch, or a romantic dinner, our dining service promises a perfect blend of delectable dishes and a welcoming ambiance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- room section -->
+    <section class="room">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- first room -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="card room1">
+                <div class="card-body room-body">
+                    <h2 class="card-title">Double Room</h2>
+                    <p>
+                      <h3 class="card-title" style="text-align: left; color: red; display: inline;">199$</h3> <strong>/night</strong>
+                    </p>
+                    
+                    <table class="card-text">
+                      <tr>
+                        <td> Size: </td>
+                        <td> 97 sq. ft. </td>
+                      </tr>
+
+                      <tr>
+                        <td>Capacity: </td>
+                        <td> Max Person 5</td>
+                      </tr>
+
+                      <tr>
+                        <td> Bed: </td>
+                        <td> Separate Bed </td>
+                      </tr>
+
+                      <tr>
+                        <td> Services: </td>
+                        <td> 24x7 room service, Free Wifi, T.V.....and more </td>
+                      </tr>
+                    </table>
+
+                    <button class="btn btn-primary">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+          </div>
+
+          <!-- second room -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="card room2">
+              <div class="card-body room-body">
+                  <h2 class="card-title">Imperial Room</h2>
+                  <p>
+                    <h3 class="card-title" style="text-align: left; color: red; display: inline;">225$</h3> <strong>/night</strong>
+                  </p>
+
+                  <table class="card-text">
+                    <tr>
+                      <td> Size: </td>
+                      <td> 400 sq. ft. </td>
+                    </tr>
+
+                    <tr>
+                      <td>Capacity: </td>
+                      <td> Max Person 2</td>
+                    </tr>
+
+                    <tr>
+                      <td> Bed: </td>
+                      <td> King Bed </td>
+                    </tr>
+
+                    <tr>
+                      <td> Services: </td>
+                      <td> 24x7 room service, Free Wifi, T.V.....and more </td>
+                    </tr>
+                  </table>
+
+                  <button class="btn btn-primary">
+                      Book Now
+                  </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- third room -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="card room3">
+              <div class="card-body room-body">
+                <h2 class="card-title">Deluxe Room</h2>
+                  <p>
+                    <h3 class="card-title" style="text-align: left; color: red; display: inline;">159$</h3> <strong>/night</strong>
+                  </p>
+
+                  <table class="card-text">
+                    <tr>
+                      <td> Size: </td>
+                      <td> 200 sq. ft. </td>
+                    </tr>
+
+                    <tr>
+                      <td>Capacity: </td>
+                      <td> Max Person 4</td>
+                    </tr>
+
+                    <tr>
+                      <td> Bed: </td>
+                      <td> Twin Bed </td>
+                    </tr>
+
+                    <tr>
+                      <td> Services: </td>
+                      <td> 24x7 room service, Free Wifi, T.V.....and more </td>
+                    </tr>
+                  </table>
+
+                  <button class="btn btn-primary">
+                      Book Now
+                  </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- forth room -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="card room4">
+              <div class="card-body room-body">
+                <h2 class="card-title">Family Room</h2>
+                <p>
+                  <h3 class="card-title" style="text-align: left; color: red; display: inline;">299$</h3> <strong>/night</strong>
+                </p>
+
+                <table class="card-text">
+                  <tr>
+                    <td> Size: </td>
+                    <td> 800 sq. ft. </td>
+                  </tr>
+
+                  <tr>
+                    <td>Capacity: </td>
+                    <td> Max Person 14</td>
+                  </tr>
+
+                  <tr>
+                    <td> Bed: </td>
+                    <td> Twin Bed </td>
+                  </tr>
+
+                  <tr>
+                    <td> Services: </td>
+                    <td> 24x7 room service, Free Wifi, T.V.....and more </td>
+                  </tr>
+                </table>
+                  <button class="btn btn-primary">
+                      Book Now
+                  </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section -->
+    <section class="review">
+      <div class="container">
+        <div class="row review-detail" >
+          <h6>testimonials</h6> 
+          <h2>what customers say?</h2>
+          <!-- customer review carousel section  -->
+          <div class="container text-center my-3">
+            <div class="row mx-auto my-auto justify-content-center">
+              <!-- <h4 style="text-align: start;">Best of Electronics</h4> -->
+              <div id="recipeCarousel" class="carousel carousel_1 slide">
+                <div class="carousel-inner" role="listbox">
+                  <!-- first review -->
+                  <div class="carousel-item carousel-item_1 active">
+                    <div class="col-md-12 review1">
+                      <p>My stay at The Horizon was absolutely fantastic! The staff was incredibly welcoming and went above and beyond to make my experience memorable. The room was spacious, impeccably clean, and offered breathtaking views. The amenities were top-notch, and the location was perfect for exploring the city. I can't wait to return to The Horizon on my next visit. Highly recommended!
+                      </p>
+
+                      <p style="margin-bottom: 20px;">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i> - <strong>Amit Shrivastav</strong>
+                      </p>
+
+                      <p>
+                        <img src=".//images/agoda.png" alt="agoda">
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- second review -->
+                  <div class="carousel-item carousel-item_1">
+                    <div class="col-md-12 review2">
+                      <p>I recently stayed at The Horizon and had a great overall experience. The staff was friendly and accommodating. The room was comfortable, and I appreciated the modern decor. The hotel's central location made it convenient to explore nearby attractions. While the breakfast was good, I wish there were a few more options. Nonetheless, I would consider staying here again on my next trip.
+                      </p>
+
+                      <p style="margin-bottom: 20px;">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i> - <strong>Vinita Singh</strong>
+                      </p>
+
+                      <p>
+                        <img src=".//images/goibo.png" alt="goibibo">
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- third review -->
+                  <div class="carousel-item carousel-item_1 ">
+                    <div class="col-md-12 review3">
+                      <p>The Horizon exceeded my expectations! The attention to detail and cleanliness stood out the most. The room was well-appointed with modern furnishings, and the bed was incredibly comfortable. The hotel's ambiance was serene, providing a perfect escape from the hustle and bustle of the city. The staff was attentive, and the on-site restaurant served delicious meals. I had a wonderful stay and would highly recommend The Horizon to fellow travelers.</p>
+
+                      <p style="margin-bottom: 20px;">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i> - <strong>Alex Hales</strong>
+                      </p>
+
+                      <p>
+                        <img src=".//images/makemytrip.jpeg" alt="makemytrip" style="width: 100px;">
+                        <!-- <span style="font-size: 12px; display: block; color: red;">makemytrip</span> -->
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- fourth review -->
+                  <div class="carousel-item carousel-item_1 ">
+                    <div class="col-md-12 review4">
+                      <p>I had a delightful stay at The Horizon. The staff was friendly and responsive to my requests. The room had a stunning view of the city skyline, and the amenities were excellent. The hotel's commitment to sustainability was evident, which I appreciated. The only reason I didn't give a perfect score was the Wi-Fi, which could be a bit more reliable. Overall, I had a wonderful experience and would choose The Horizon again for my next trip.</p>
+
+                      <p style="margin-bottom: 20px;">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i> - <strong>Rohit Shankar</strong>
+                      </p>
+
+                      <p>
+                        <img src=".//images/agoda.png" alt="travelocity">
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- fifth review -->
+                  <div class="carousel-item carousel-item_1 ">
+                    <div class="col-md-12 review5">
+                      <p>My stay at The Horizon was delightful. The staff was attentive and ensured every aspect of my visit was comfortable. The room was elegantly furnished with a cozy atmosphere. I enjoyed the hotel's rooftop bar with panoramic views, perfect for unwinding after a day of exploring. The only slight downside was the parking space, which was limited.It would be really appreciated when added some greenery to the property. Despite that, I would gladly return to The Horizon for its overall charm and hospitality.</p>
+
+                      <p style="margin-bottom: 20px;">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i> - <strong>Suman Rawat</strong>
+                      </p>
+
+                      <p>
+                        <img src=".//images/tripadvisor.png" alt="tripadvisor">
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="blogging container">
+      <!-- <div class="container"> -->
+        <h6>hotel news</h6> 
+        <h2>our blog & events</h2>
+        <div class="row">
+          <div class="col-lg-4 ">
+            <div class="card blog1">
+              <div class="card-body blog-detail">
+                <span>Travel Trip</span>
+                <a href="blog.html"><h5>Tremblant In Goa</h5></a>
+                <p>
+                  <i class="fa-regular fa-clock"></i> 15 <sup>th</sup> April, 2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 ">
+            <div class="card blog2">
+              <div class="card-body blog-detail">
+                <span>Camping</span>
+                <a href="blog.html"><h5>Choosing A Static Caravan</h5></a>
+                <p>
+                  <i class="fa-regular fa-clock"></i> 15 <sup>th</sup> April, 2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 ">
+            <div class="card blog3">
+              <div class="card-body blog-detail">
+                <span>Tracking</span>
+                <a href="blog.html"><h5>Copper Canyon</h5></a>
+                <p>
+                  <i class="fa-regular fa-clock"></i> 15 <sup>th</sup> April, 2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 ">
+            <div class="card blog4">
+              <div class="card-body blog-detail">
+                <span>Chill</span>
+                <a href="blog.html"><h5>Trip To New Era</h5></a>
+                <p>
+                  <i class="fa-regular fa-clock"></i> 15 <sup>th</sup> April, 2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 ">
+            <div class="card blog5">
+              <div class="card-body blog-detail">
+                <span>Travel</span>
+                <a href="blog.html"><h5>Explore New World!</h5></a>
+                <p>
+                  <i class="fa-regular fa-clock"></i> 15 <sup>th</sup> April, 2023
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+    </section>
+
+    <!-- login modal -->
+  <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Login Form</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="name">Enter Name:</label>
+            <input type="text" id="name" placeholder="Enter Name">
+
+            <label for="email">Enter Email:</label>
+            <input type="email" id="email" placeholder="Enter Email">
+
+            <label for="password">Enter Name:</label>
+            <input type="password" id="password" placeholder="Enter Password">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Login</button>
+            <button type="button" class="btn btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          
+        <div class="col-lg-4 f1">
+          <h4>The-Horizon</h4>
+          <p>We inspire and reach millions of travelers
+            across 90 local websites</p>
+            <p>
+              <a href="https://www.facebook.com/hotelhorizontrivandrumkerala/" target="_blank"> <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i> </a>
+              <a href="https://twitter.com/horizonsabah" target="_blank"> <i class="fa-brands fa-twitter" style="color: #ffffff;"></i> </a>
+              <a href="https://www.instagram.com/horizonhoteldoha/" target="_blank"> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i> </a>
+              <a href="https://www.youtube.com/@thehorizonhotellonavala4418" target="_blank"> <i class="fa-brands fa-youtube" style="color: #ffffff;"></i> </a>
+            </p>
+        </div>
+
+        <div class="col-lg-4 f2">
+          <h6>contact us</h6>
+
+          <p>
+            Ph.no: 11 584859323 <br>
+            Mobile no.:+91 9345564234 <br>
+            Address: d23, Shakti Vihar, New Delhi <br>
+            India 
+          </p>
+        </div>
+        <div class="col-lg-4 f3">
+          <h6>new latest</h6>
+
+          <p>Get the latest update and offers.</p>
+          <input type="email" placeholder="enter email">
+          <button type="button" class="btn"><i class="fa-solid fa-paper-plane" style="color: #e2e5e9;"></i></button>
+        </div>
+      </div>  
+      </div>
+    </section>
+
+    <!-- declaration part for website -->
+    <section class="footer-declare">
+      <div class="container declare-text">
+        <p>Copyright ©2024 All rights reserved | <a href="#" style="text-decoration: none; color: white;">Terms of Use</a> | 
+          <a href="#" style="text-decoration: none; color: white;">Policy</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- special offer part -->
+      
+
+    <!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script for customer review -->
+    <script>
+      let items = document.querySelectorAll(".carousel_1 .carousel-item_1");
+
+      items.forEach((el) => {
+        const minPerSlide = 4;
+        let next = el.nextElementSibling;
+        for (var i = 1; i < minPerSlide; i++) {
+          if (!next) {
+            // wrap carousel by using first child
+            next = items[0];
+          }
+          let cloneChild = next.cloneNode(true);
+          el.appendChild(cloneChild.children[0]);
+          next = next.nextElementSibling;
+        }
+      });
+    </script>
+</body>
+</html>

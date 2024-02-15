@@ -1,0 +1,234 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #97caef7a !important;
+}
+
+/* design of header and navigation(menu) */
+header{
+  /* background-image: linear-gradient( to top, rgba(42, 81, 165, 0.205), rgba(33, 116, 194, 0.253)),url(../images/room-background.jpg); */
+  /* height: 600px; */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  padding-bottom: 50px;
+}
+
+nav {
+  background-color: rgba(14, 45, 66);
+  position: fixed !important;
+  z-index: 1;
+}
+  
+a.b-name {
+  font-family: "Lora", serif;
+}
+  
+.b-name {
+  font-size: 35px !important;
+  padding: 0px !important;
+  text-align: center !important;
+  font-weight: bolder !important;
+  color: white !important;
+}
+
+.active {
+  color: white !important;
+  border-bottom: 2px solid white !important;
+}
+  
+.nav-option {
+  /* border: 1px solid green; */
+  justify-content: center;
+}
+  
+.nav-option ul li {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+.nav-option ul li a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.nav-option ul li button:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+.dropdown ul li a {
+  padding: 0px !important;
+}
+  
+.dropdown ul li a:hover {
+  /* color: black; */
+  border-bottom: 0px;
+  background-color: #0d6efd;
+}
+
+.a-tag h1{
+  text-align: center;
+  font-size: 80px;
+  margin-top: 200px;
+  color: black;
+  font-family: lora, serif;
+  font-style: italic;
+}
+
+/* contact section design */
+.contact{
+  text-align: center;
+}
+
+.phone-detail i{
+  display: block;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.phone-detail p{
+  color: #393D4A;
+  font-size: 20px;
+}
+
+.contact-details input{
+  width: 100% !important;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.contact-details textarea{
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.contact-details button{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #dfa974;
+  color: white;
+}
+
+/* MODAL SECTION OF WEBPAGE */
+
+.modal-body input{
+  padding-left: 20px;
+  width: 70%;
+  height: 40px;
+  display: block;
+}
+
+.modal-body label{
+  color: black;
+  font-weight: 500;
+}
+
+
+/* FOOTER SECTION */
+
+  .footer {
+  /* border: 1px solid black;  */
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: #222736;
+}
+
+.f1 h4 {
+  color: white;
+  font-size: 25px;
+  font-family: lora, sans-serif;
+  font-style: italic;
+  line-height: 3;
+}
+
+.f1 p {
+  color: rgba(255, 255, 255, 0.514);
+  font-style: oblique;
+  font-family: serif;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.f1 p  a i {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #3b3837;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.f1 p a{
+  text-decoration: none;
+}
+
+.f1 p a i:hover {
+  background-color: #dfa974;
+}
+
+.f2 h6 {
+  text-transform: uppercase;
+  color: #dfa974;
+  text-align: center;
+}
+
+.f2 p{
+  color: white;
+  margin-top: 20px;
+  line-height: 2;
+  padding-left: 80px;
+}
+
+.f3 h6 {
+  text-transform: uppercase;
+  color: #dfa974;
+  text-align: center;
+}
+
+.f3 p{
+  color: white;
+  margin-top: 20px;
+  line-height: 2;
+  padding-left: 80px;
+}
+.f3 input{
+  width: 70%;
+    height: 43px;
+    border-radius: 2px;
+    background: #393D4A;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #707079; 
+    margin-left: 40px;
+}
+
+.f3 button{
+  background-color: #dfa974;
+}
+
+/* DECLARATION OF WEBSITE */
+
+.footer-declare{
+  background-color: #393D4A;
+}
+
+.declare-text p{
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  text-align: center; 
+  /* display: inline-block; */
+}

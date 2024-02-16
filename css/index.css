@@ -352,17 +352,17 @@ a.navbar-brand {
       rgba(24, 32, 41, 0.322),
       rgba(24, 32, 65, 0.527)
     ),
-    url(/images/room-b1.jpg);
+    url(../images/room-b1.jpg);
   font-size: 20px;
 }
 
 .room2 {
-  background-image: url(/images/room-b2.jpg);
+  background-image: url(../images/room-b2.jpg);
   font-size: 18px;
 }
 
 .room3 {
-  background-image: url(/images/room-b3.jpg);
+  background-image: url(../images/room-b3.jpg);
   font-size: 20px;
 }
 
@@ -372,7 +372,7 @@ a.navbar-brand {
       rgba(24, 32, 41, 0.322),
       rgba(24, 32, 65, 0.527)
     ),
-    url(/images/room-b4.jpg);
+    url(../images/room-b4.jpg);
   font-size: 20px;
 }
 

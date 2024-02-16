@@ -624,8 +624,5 @@ a.navbar-brand {
 
 .declare-text p {
   font-size: 20px;
-  padding: 20px;
   color: white;
-  text-align: center;
-  /* display: inline-block; */
 }

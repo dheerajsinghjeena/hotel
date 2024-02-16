@@ -117,42 +117,42 @@ a.b-name {
 }
   
 .room1 {
-  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(/images/room-b1.jpg);
+  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(../images/room-b1.jpg);
   font-size: 20px;
 }
   
 .room2 {
-  background-image: url(/images/room-b2.jpg);
+  background-image: url(../images/room-b2.jpg);
   font-size: 20px;
 }
   
 .room3 {
-  background-image: url(/images/room-b3.jpg);
+  background-image: url(../images/room-b3.jpg);
   font-size: 20px;
 }
   
 .room4 {
-  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(/images/room-b4.jpg);
+  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(../images/room-b4.jpg);
   font-size: 20px;
 }
 
   .room5{
-    background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(/images/room5.avif);
+    background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(../images/room5.avif);
     font-size: 20px;
 }
   
 .room6{
-  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(/images/room6.jpg);
+  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(../images/room6.jpg);
   font-size: 20px;
 }
 
 .room7{
-  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(/images/room7.webp);
+  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(../images/room7.webp);
   font-size: 20px;
 }
 
 .room8{
-  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(/images/room8.jpg);
+  background-image: linear-gradient(to top,rgba(24, 32, 41, 0.322),rgba(24, 32, 65, 0.527)),url(../images/room8.jpg);
   font-size: 20px;
 }
 

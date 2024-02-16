@@ -26,7 +26,7 @@ body {
     width: 100% !important;
   }
 
-  .blog-detail a h5{
+  .blog-detail a h5 {
     color: black !important;
   }
 
@@ -92,7 +92,12 @@ body {
 header {
   /* height: 900px; */
   padding-bottom: 100px;
-  background-image: linear-gradient(to top,rgba(14, 45, 66, 0.473),rgba(153, 154, 158, 0.6)),url(/images/header_bg.jpg);
+  background-image: linear-gradient(
+      to top,
+      rgba(14, 45, 66, 0.473),
+      rgba(153, 154, 158, 0.6)
+    ),
+    url(../images/header_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -321,7 +326,10 @@ a.navbar-brand {
 }
 
 /* room design part */
-.room1,.room2,.room3,.room4 {
+.room1,
+.room2,
+.room3,
+.room4 {
   border: none;
   height: 600px;
   /* margin: 0px !important; */
@@ -395,7 +403,6 @@ a.navbar-brand {
   padding-bottom: 40px;
   /* border: 1px solid black;  */
 }
-
 
 .review-detail h6 {
   font-size: 15px;
@@ -512,14 +519,14 @@ a.navbar-brand {
 
 /* MODAL SECTION OF WEBPAGE */
 
-.modal-body input{
+.modal-body input {
   padding-left: 20px;
   width: 70%;
   height: 40px;
   display: block;
 }
 
-.modal-body label{
+.modal-body label {
   color: black;
   font-weight: 500;
 }
@@ -528,7 +535,7 @@ a.navbar-brand {
 .footer {
   /* border: 1px solid black;  */
   padding-top: 100px;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
   background-color: #222736;
 }
 
@@ -548,7 +555,7 @@ a.navbar-brand {
   line-height: 2;
 }
 
-.f1 p  a i {
+.f1 p a i {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -560,7 +567,7 @@ a.navbar-brand {
   margin-right: 7px;
 }
 
-.f1 p a{
+.f1 p a {
   text-decoration: none;
 }
 
@@ -574,7 +581,7 @@ a.navbar-brand {
   text-align: center;
 }
 
-.f2 p{
+.f2 p {
   color: white;
   margin-top: 20px;
   line-height: 2;
@@ -587,38 +594,38 @@ a.navbar-brand {
   text-align: center;
 }
 
-.f3 p{
+.f3 p {
   color: white;
   margin-top: 20px;
   line-height: 2;
   padding-left: 80px;
 }
-.f3 input{
+.f3 input {
   width: 70%;
-    height: 43px;
-    border-radius: 2px;
-    background: #393D4A;
-    border: none;
-    padding-left: 20px;
-    font-size: 16px;
-    color: #707079; 
-    margin-left: 40px;
+  height: 43px;
+  border-radius: 2px;
+  background: #393d4a;
+  border: none;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #707079;
+  margin-left: 40px;
 }
 
-.f3 button{
+.f3 button {
   background-color: #dfa974;
 }
 
 /* DECLARATION OF WEBSITE */
 
-.footer-declare{
-  background-color: #393D4A;
+.footer-declare {
+  background-color: #393d4a;
 }
 
-.declare-text p{
+.declare-text p {
   font-size: 20px;
   padding: 20px;
   color: white;
-  text-align: center; 
+  text-align: center;
   /* display: inline-block; */
 }
